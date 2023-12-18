@@ -1,9 +1,31 @@
+# Supabase
+
+## Quickstart
+
+Create your first API route by creating a table called `todos` to store tasks.
+
+See the tutorial <https://supabase.com/docs/guides/api/quickstart>
+
+## JavaScript Library Reference Guide
+
+See <https://supabase.com/docs/reference/javascript/>
+
+Covers 
+- [AUTH](https://supabase.com/docs/reference/javascript/auth-api), 
+- [DATABASE](https://supabase.com/docs/reference/javascript/select), 
+- [STORAGE](https://supabase.com/docs/reference/javascript/storage-createbucket), 
+- [EDGE FUNCTIONS](https://supabase.com/docs/reference/javascript/functions-invoke), 
+- [REALTIME](https://supabase.com/docs/reference/javascript/subscribe).
 
 ## References
 
-* <https://supabase.com/docs/guides/cli/getting-started?platform=npx>
+* [Supabase docs](https://supabase.com/docs)
+* Supabase cli: <https://supabase.com/docs/guides/cli/getting-started?platform=npx>
 
-## Playground
+## Build an API route in less than 2 minutes.
+
+
+## Supabase CLI
 
 ```
 ➜ supabase login
@@ -29,7 +51,7 @@ $ supabase projects list
 ```
 
 
-## Full command reference
+### Full command reference
 
 The CLI provides a number of commands to help you develop your project locally and deploy to the Supabase Platform. You can find all commands inside the [CLI Reference](https://supabase.com/docs/reference/cli/introduction) docs, including:
 
