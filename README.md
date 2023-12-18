@@ -20,6 +20,36 @@ Covers
 - [EDGE FUNCTIONS](https://supabase.com/docs/reference/javascript/functions-invoke), 
 - [REALTIME](https://supabase.com/docs/reference/javascript/subscribe).
 
+
+## Auto-generated documentation
+
+See <https://supabase.com/docs/guides/api/rest/auto-generated-docs>
+
+For instance, using the `TODO`s table created in the previous sections (See <https://supabase.com/dashboard/project/sexzgsjhrqibssjfhhbz/editor/28578>) we can use the fact that Supabase generates documentation in the Dashboard which updates as you make database changes.
+
+1. Go to the [API](https://supabase.com/dashboard/project/_/api) page in the Dashboard.
+2. Select any table under Tables and Views in the sidebar.
+3. Switch between the JavaScript and the cURL docs using the tabs.
+
+I have used it to build a program like the one in [hello.mjs](hello.mjs):
+
+```js
+➜  hello-supabase-clie git:(main) npm run hello.mjs
+> hello-supabase-clie@1.0.0 hello.mjs
+> node hello.mjs
+
+[
+  { id: 1, task: 'Create tables' },
+  { id: 2, task: 'Enable security' },
+  { id: 3, task: 'Add data' },
+  { id: 4, task: 'Fetch data from the API' },
+  { id: 5, task: 'comprar manzanas' },
+  { id: 6, task: 'comprar peras' },
+  { id: 7, task: 'preparar café' },
+  { id: 8, task: 'dar la clase DMSI' }
+]
+```
+
 ## References
 
 * [Supabase docs](https://supabase.com/docs)

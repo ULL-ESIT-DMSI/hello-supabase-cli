@@ -7,11 +7,13 @@ const anonPublic = process.env.anonPublic
 // Create a single supabase client for interacting with your database
 const supabase = createClient('https://'+projectId+'.supabase.co', anonPublic)
 
-let { data: todos, error } = await supabase
+let { data, error } = await supabase
   .from('todos')
   .select('*')
           
-if (!error && todos) {
-  console.log(todos)
+if (!error && data) {
+  console.log(data)
 }
 else if (error) console.log(error)
+else console.log('No data', data, error)
+          
