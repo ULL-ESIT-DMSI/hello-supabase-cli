@@ -1,0 +1,27 @@
+{
+  "name": "hello-supabase-clie",
+  "version": "1.0.0",
+  "description": "## Quickstart",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0"
+  },
+  "scripts": {
+    "save": "git ci -am 'save'; git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-DMSI/hello-supabase-cli.git"
+  },
+  "keywords": [],
+  "author": "Casiano Rodriguez Leon <crguezl@ull.edu.es> (https://crguezl.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-DMSI/hello-supabase-cli/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-DMSI/hello-supabase-cli#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^16.3.1"
+  }
+}
