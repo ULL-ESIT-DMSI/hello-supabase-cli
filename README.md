@@ -6,6 +6,9 @@ Create your first API route by creating a table called `todos` to store tasks.
 
 See the tutorial <https://supabase.com/docs/guides/api/quickstart>
 
+Build an API route in less than 2 minutes.
+
+
 ## JavaScript Library Reference Guide
 
 See <https://supabase.com/docs/reference/javascript/>
@@ -21,9 +24,6 @@ Covers
 
 * [Supabase docs](https://supabase.com/docs)
 * Supabase cli: <https://supabase.com/docs/guides/cli/getting-started?platform=npx>
-
-## Build an API route in less than 2 minutes.
-
 
 ## Supabase CLI
 
