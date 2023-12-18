@@ -7,7 +7,8 @@
     "node": ">=20.0"
   },
   "scripts": {
-    "save": "git ci -am 'save'; git push"
+    "save": "git ci -am 'save'; git push",
+    "hello.mjs": "node hello.mjs"
   },
   "repository": {
     "type": "git",
