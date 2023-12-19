@@ -25,7 +25,7 @@ Covers
 
 See <https://supabase.com/docs/guides/api/rest/auto-generated-docs>
 
-For instance, using the `TODO`s table created in the previous sections (See <https://supabase.com/dashboard/project/sexzgsjhrqibssjfhhbz/editor/28578>) we can use the fact that Supabase generates documentation in the Dashboard which updates as you make database changes.
+For instance, using the `TODO`s table created in the [previous section **Quickstart**](#quickstart) we can use the fact that Supabase generates documentation in the Dashboard which updates as you make database changes.
 
 1. Go to the [API](https://supabase.com/dashboard/project/_/api) page in the Dashboard.
 2. Select any table under Tables and Views in the sidebar.
